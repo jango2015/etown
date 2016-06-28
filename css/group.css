@@ -1,0 +1,14 @@
+
+
+
+.header{height:20%;}
+.content{min-height: 548px;}
+
+.menumContainer .menu ul li a{font-size:20px; text-decoration: none;color:#000;}
+
+.info{font-size: 30; position: absolute;margin: 0 auto;width:330px;top:25%;left:40%;}
+.info .view-detail{cursor: pointer; font-size: 15px; margin-top:20px;}
+
+.group-Info img{margin-top:30px;}
+.group-Info .group-detail-info{height:500px; letter-spacing: 1px;position: relative;left: 25%;width:50%;text-align: left;}
+.group-Info .group-detail-info div{padding:10px;width:100%;}

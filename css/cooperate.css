@@ -1,0 +1,28 @@
+
+
+
+.header{height:100%; background: url(../img/cooperate/beijin.png) no-repeat;}
+.content{min-height: 548px;}
+
+.info{font-size: 30; position: absolute;margin: 0 auto;width:100%;height: 335px; bottom:0;background: url(../img/cooperate/yuanjin.png)}
+.info .desire{font-size:55px; padding-top:30px;}
+.info .view-detail{font-size: 35px; margin-top:20px;}
+
+.proxy-bg{font-size:130px;color:#F5A808;font-weight: 800;opacity: 0.1;margin-top:8%;}
+.hot-proxy{height:300px;width:100%;position: relative;margin-top:-8%;}
+.hot-proxy .title{padding-top:3%;}
+.hot-proxy .h5{width: 50px;height:5px;background: #F5A808;margin: 5px auto;}
+.hot-proxy .h6{width: 600px;height:2px;background: #F5A808;margin: 5px auto;margin-top:20px;margin-bottom: 20px;}
+.hot-proxy .hot-proxy-info{font-size:20px;}
+.hot-proxy .apply{position: absolute;bottom:-15px;left:35%; font-size:25px;}
+.hot-proxy .apply .proxy{float: left;padding:30px 35px;}
+.hot-proxy .apply .supply{float: left;padding:30px 35px;}
+.hot-proxy .apply a{color:#F5A808;}
+.hot-proxy .apply .proxy-icon{background: url(../img/cooperate/dailis.png) no-repeat;background-position: 0 25px; width:205px;height:50px;}
+.hot-proxy .apply .supply-icon{background: url(../img/cooperate/gongyins.png) no-repeat;background-position: 0 25px; width:205px;height:50px;}
+
+.co-supplier{height:375px;background: url(../img/cooperate/2.png) no-repeat;}
+.co-supplier h3{padding-top:30px;}
+.co-supplier .suppliers{text-align: center;position: absolute;width: 100%;}
+.co-supplier .suppliers .supply{height:60px;background: #FFF;float: left;margin:20px 0 0 12%; width: 11.5%;border-radius: 5px;-webkit-border-redius:5px;}
+.co-supplier .suppliers .supply img{padding-top: 10px;}

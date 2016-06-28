@@ -1,0 +1,135 @@
+<html>
+<meta content="charset=utf-8" />
+
+<head>
+    <title>about</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/about.css">
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <div class="header defaultFontColor ">
+        <div class="menumContainer whiteFontColor">
+            <div class="menu">
+                <ul>
+                    <li><a href="index.html">首页</a></li>
+                    <li><a class="active" href="about.html">关于我们</a></li>
+                    <li><a href="eatown.html">E食堂</a></li>
+                    <li><a href="cooperate.html">合作伙伴</a></li>
+                </ul>
+            </div>
+            <img class="logo" width="150px" height="70px" src="img/logo/logo.png" alt="Logo">
+        </div>
+        <div class="info whiteFontColor">
+            <div> E食堂是做什么的？
+            </div>
+            <div class="view-detail"><a href="eatown.html">查看详情 ——></a></div>
+        </div>
+        <div class="company-container">
+            <div class="company-introduce">
+                <h4>企业概况</h4>
+                <span class="company-name">上海壹堂食信息科技股份有限公司</span>
+                <div class="introduction">
+                    <span>成立于2015年8月，隶属中路集团，坐落于环境怡人的漕河泾开发园区浦江科技广场。</span><br/>
+                    <span>公司由移动互联网和物联网行业专家、优秀的创业和管理团队组成，并整合了餐饮领域的专业知名人士，打造国内
+                首个以贩售机为核心、专注于美食的O2O平台。我们致力于为您提供更多、更全、更健康的美食！</span><br/>
+                    <span>我们立志成为全球最领先的美食O2O平台！</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="clear"></div>
+    <div class="content">
+        <div class="company-group whiteFontColor">
+            <h4>中路集团</h4>
+            <div class="company-group-info">
+                <span>上海中路（集团）有限公司，成立于1998年，是一家以投资为核心，主要涵盖并购、投资、影视文化和休闲娱乐等四个领域。</span>
+                <br/>
+                <span>中路集团包含中路股份和炼石有色两家上市公司。</span>
+                <div class="company-group-more">
+                    <span><a href="company-group.html">更多详情</a></span>
+                </div>
+            </div>
+        </div>
+        <div class="recuit-Info whiteFontColor">
+            <h4>招聘信息</h4>
+            <div class="recuit-info-jobs">
+                <dl>
+                    <dt><span class="job">产品经理</span><span class="more"><a href="recruiter.html#product">></a></span></dt>
+                </dl>
+                <dl>
+                    <dt><span class="job">测试工程师</span><span class="more"><a href="recruiter.html#operate">></a></span></dt>
+                </dl>
+                <dl>
+                    <dt><span class="job">.Net高级开发</span><span class="more"><a href="recruiter.html#develop">></a></span></dt>
+                </dl>
+                <dl>
+                    <dt><span class="job">电气工程师</span><span class="more"><a href="recruiter.html#engineer">></a></span></dt>
+                </dl>
+                <dl>
+                    <dt><span class="job">前端工程师</span><span class="more"><a href="recruiter.html#frontend">></a></span></dt>
+                </dl>
+                <dl>
+                    <dt><span class="job">电气助理工程师</span><span class="more"><a href="recruiter.html#market">></a></span></dt>
+                </dl>
+            </div>
+        </div>
+        <div class="map-Info" name="contactu" id="contactu">
+            <h4>地址:上海闵行浦江镇陈行公路2388号9号楼</h4>
+            <div class="map-baidu">
+                <iframe src="mapAddress.html" frameborder="0"></iframe>
+            </div>
+        </div>
+        <div class="contact-Info whiteFontColor">
+            <h3>联系我们</h3>
+            <div class="contacts">
+                <img src="img/about/dianhua.png" alt="">
+                <div class="phone">
+                    021-34788773
+                </div>
+                <div class="contact-user">
+                    联系人：人事部 周女士 zhoujianxing@eatown.com.cn
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer whiteFontColor">
+        <div class="footer-menu">
+            <ul>
+                <li><a href="about.html">关于我们</a></li>
+                <li><a href="about.html#contactu">联系我们</a></li>
+                <li><a href="recruiter.html">招聘信息</a></li>
+                <li><a href="cooperate.html">合作伙伴</a></li>
+            </ul>
+        </div>
+        <div class="copyright">
+            Copyright &copy;2015&nbsp;沪ICP备号 &nbsp;沪. @上海壹堂食信息技术股份有限公司-沪批字第号<br/>
+            <img src="img/home/tub.png" alt="">
+        </div>
+    </div>
+    <script src="scripts/jquery-3.0.0.min.js"></script>
+    <script type="text/javascript">
+        $(function(){
+            $(".company-container").mouseenter(function(){
+               $(this).stop();
+               $(this).children().animate({left:100},"fast").animate({left:"50%"}).animate({left:"30%"});
+               $(this).animate({"opacity":0.3},"fast").animate({"opacity":0.6},"fast");
+            });
+            $(".recuit-Info").mouseenter(function(){
+               $(this).stop();
+               $(this).animate({"opacity":0.3},"fast").animate({"opacity":1},"fast");
+            });
+            $(".company-group,.map-Info,.contact-Info").mouseenter(function(){
+               $(this).stop();
+               $(this).animate({"opacity":0.5},"fast").animate({"opacity":1},"fast");
+            });
+
+            
+        })
+    </script>
+</body>
+
+</html>

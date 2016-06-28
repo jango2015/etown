@@ -1,0 +1,50 @@
+
+.header{height:65%; background: url(../img/eatown/beijin.png) no-repeat;}
+.content{min-height: 548px;}
+
+.info{font-size: 30; position: absolute;margin: 0 auto;width:330px;top:15%;left:30%;}
+/*.info .view-detail{cursor: pointer; font-size: 15px; margin-top:20px;}*/
+.info .log{margin-left: 20%;}
+.info .lists{position: absolute; width: 700px; height: 100px; background: #B69DA0;border-radius: 15px;}
+.info .lists .imgItem{float: left; margin-right: 10px;padding-top:15px;padding-left:12px;}
+
+.hot-recommend{width: 100%;height:300px;}
+.hot-recommend .recommend-info{margin: 0 auto;width:400px;float: right;height:300px;position: absolute;left:20%;}
+.hot-recommend .recommend-info h2{font-size:45px; font-weight: 600;}
+.hot-recommend .recommend-info span{font-size:20px; letter-spacing: 2px;}
+.hot-recommend .img{width:300px; float: right;height:300px;margin-top:15px;position: absolute;right:15%;background: url(../img/eatown/remai.png) no-repeat;}
+.hot-recommend .recommend-info a{text-decoration: none;color:#000;}
+
+.beside-restaurant{width: 100%;height:315px;position: relative; background:#F1F1F1;}
+.beside-restaurant .restaurant-info{margin:0 auto; float: right;width:400px;right:20%;position: absolute;}
+.beside-restaurant .restaurant-info h2{font-size:45px; font-weight: 600;}
+.beside-restaurant .restaurant-info span{font-size:20px; letter-spacing: 2px;}
+.beside-restaurant .img{width:300px; float: right;height:300px;margin-top:15px;position: absolute;left:20%;background: url(../img/eatown/shitang.png) no-repeat;}
+
+
+
+.health{width:100%; height: 362px;background:#FFAE57;}
+.health .health-info{margin: 0 auto;width:400px;float: right;height:300px;position: absolute;left:20%;}
+.health .health-info h2{font-size:45px; font-weight: 600;}
+.health .health-info span{font-size:20px; letter-spacing: 2px;}
+.health .img{width:300px; float: right;height:347px;margin-top:15px;position: absolute;right:15%;background: url(../img/eatown/weishen.png) no-repeat;}
+
+.delicious{width:100%;height: 335px;position: relative; background:#F1F1F1}
+.delicious .delicious-info{margin:0 auto; float: right;width:400px;right:20%;position: absolute;}
+.delicious .delicious-info h2{font-size:45px; font-weight: 600;}
+.delicious .delicious-info span{font-size:20px; letter-spacing: 2px;}
+.delicious .img{width:300px; float: left;height:347px;margin-top:15px;position: absolute;left:15%;background: url(../img/eatown/meiwi.png) no-repeat;}
+
+.delivery{width:100%;height: 350px;position: relative; background:#48DEE7}
+.delivery .delivery-info{margin: 0 auto;width:400px;float: right;height:300px;position: absolute;left:20%;}
+.delivery .delivery-info h2{font-size:45px; font-weight: 600;}
+.delivery .delivery-info span{font-size:20px; letter-spacing: 2px;}
+.delivery .img{width:300px; float: right;height:347px;margin-top:15px;position: absolute;right:15%;background: url(../img/eatown/peisong.png) no-repeat;}
+
+
+
+.hot-recommend:hover{opacity: 0.95;transform:scale3d(0.98,0.98,1);-webkit-transform:scale3d(0.98,0.98,1);}
+.beside-restaurant:hover{opacity: 0.95;transform:scale3d(0.98,0.98,1);-webkit-transform:scale3d(0.98,0.98,1);}
+.health:hover{opacity: 0.95;transform:scale3d(0.98,0.98,1);-webkit-transform:scale3d(0.98,0.98,1);}
+.delicious:hover{opacity: 0.95;transform:scale3d(0.98,0.98,1);-webkit-transform:scale3d(0.98,0.98,1);}
+.delivery:hover{opacity: 0.95;transform:scale3d(0.98,0.98,1);-webkit-transform:scale3d(0.98,0.98,1);}
