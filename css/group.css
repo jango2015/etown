@@ -10,7 +10,7 @@
 .info .view-detail{cursor: pointer; font-size: 15px; margin-top:20px;}
 
 .group-Info img{margin-top:30px;}
-.group-Info .group-detail-info{height:500px; letter-spacing: 1px;position: relative;width:50%;text-align: left; 
+.group-Info .group-detail-info{height:600px; letter-spacing: 1px;position: relative;width:50%;text-align: left; 
     -webkit-animation: group-detail-info  1.5s ease-in-out both;
     animation: group-detail-info  1.5s ease-in-out both;
     } 
