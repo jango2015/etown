@@ -7,12 +7,14 @@
 .info .view-detail{cursor: pointer; font-size: 15px; margin-top:20px;}
 .info .view-detail a{text-decoration: none;color:#FFF;}
 .company-container{position: absolute;bottom:0;height: 300px;width:100%; background: #FFF;opacity: 0.6;}
-.company-introduce{position: absolute;width: 41%;left:30%;}
+.company-introduce{position: absolute;width: 41%; -moz-animation: group-info 1.5s ease-in-out both; -webkit-animation: group-info 1.5s ease-in-out both;animation: group-info 1.5s ease-in-out both;
+    }
 .introduction span{padding: 10px; line-height: 35px;}
 
 .company-group{height:300px;background:url(../img/about/2.png);margin-top: -21px;}
 .company-group h4{padding:20px;}
-.company-group .company-group-info{width:40%;position: absolute;left:30%;}
+.company-group .company-group-info{width:40%;position: absolute;  -moz-animation: group-info 2.5s ease-in-out both; -webkit-animation: group-info 2.5s ease-in-out both;animation: group-info 2.5s ease-in-out both;
+    }
 .company-group .company-group-info span{line-height: 35px;}
 .company-group .company-group-more{width:100px;position: absolute;left:42%;margin: 20px 0; cursor: pointer; border: 2px solid #FFF;padding: 10px;border-radius: 10px;}
 .company-group .company-group-more a{text-decoration: none;color:#FFF;}
@@ -37,3 +39,13 @@
 .contact-Info .contacts .contact-user{font-weight: 700;}
 
 .aa{transform: scale3d(0.95,0.95,1)}
+
+/*animations*/
+@-webkit-keyframes group-info{
+    0%{left:0;opacity: 0;}
+    100%{left:30%;opacity: 1;}
+}
+@keyframes group-info{
+    0%{left:0;opacity: 0;}
+    100%{left:30%;opacity: 1;}
+}

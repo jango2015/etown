@@ -10,5 +10,19 @@
 .info .view-detail{cursor: pointer; font-size: 15px; margin-top:20px;}
 
 .group-Info img{margin-top:30px;}
-.group-Info .group-detail-info{height:500px; letter-spacing: 1px;position: relative;left: 25%;width:50%;text-align: left;}
+.group-Info .group-detail-info{height:500px; letter-spacing: 1px;position: relative;width:50%;text-align: left; 
+    -webkit-animation: group-detail-info  1.5s ease-in-out both;
+    animation: group-detail-info  1.5s ease-in-out both;
+    } 
 .group-Info .group-detail-info div{padding:10px;width:100%;}
+
+
+/*animation*/
+@keyframes group-detail-info{
+    0%{ left:-0;opacity: 0;}
+    100% {left:25%;opacity: 1;}
+}
+@-webkit-keyframes group-detail-info{
+    0%{ left:-0;opacity: 0;}
+    100% {left:25%;opacity: 1;}
+}
