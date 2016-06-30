@@ -21,3 +21,9 @@
 
 
 .footer {position: relative;}
+
+.border-arrowhead-right{position: relative;}
+.border-arrowhead-right:after,.border-arrowhead-right:before{border:30px solid transparent;border-top-color: #fff;width:0;height:0;content: ' ';
+      position: absolute; border-width: 30px;
+    }
+.border-arrowhead-right:before{border-top-color: #f00 ;border-width: 31px;}
