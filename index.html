@@ -80,7 +80,7 @@
         ind =getIngerIndex();
         var img = imgs[ind];
         $("#divhead").animate({opacity:0.6},"normal","swing",function(){
-            $("#divhead").css({"backgroundImage":"url("+img+")"});
+            $("#divhead").css({"backgroundImage":"url("+img+")","backgroundRepeat":" no-repeat"});
             $(".info").html(infos[ind]);
         }).animate({opacity:0.8}).animate({opacity:1},"normal","swing");
     }

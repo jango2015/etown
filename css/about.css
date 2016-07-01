@@ -3,10 +3,11 @@
 
 .header{height:100%; background: url(../img/about/beij.jpg) no-repeat;}
 .content{min-height: 548px;}
-.info{font-size: 30; position: absolute;margin: 0 auto;width:330px;top:25%;left:40%;}
+.info{font-size: 30; position: absolute;margin: 0 auto;width:330px;top:50%;left:40%;}
 .info .view-detail{cursor: pointer; font-size: 15px; margin-top:20px;}
 .info .view-detail a{text-decoration: none;color:#FFF;}
-.company-container{position: absolute;bottom:0;height: 300px;width:100%; background: #FFF;opacity: 0.6;}
+.company-container{height: 365px;width:100%; background: #FFF;opacity: 0.6;}
+
 .company-introduce{position: absolute;width: 41%; -moz-animation: group-info 1.5s ease-in-out both; -webkit-animation: group-info 1.5s ease-in-out both;animation: group-info 1.5s ease-in-out both;
     }
 .introduction span{padding: 10px; line-height: 35px;}

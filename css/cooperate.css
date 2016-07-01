@@ -8,6 +8,9 @@
 /*background: url(../img/cooperate/yuanjin.png) no-repeat;*/
 background:#F4BF85;opacity: 0.8;
 }
+/*@media all{
+	.info{ top: 36%;}
+}*/
 .info .desire{font-size:55px; padding-top:30px;width: 500px; position: relative;left:33%;
 transform-style:  preserve-3d;perspective: 600;-webkit-transform-style: preserve-3d;
 animation: yspin 6s linear infinite ; 
