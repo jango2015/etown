@@ -1,7 +1,7 @@
 
 .header{height:65%; background: url(../img/eatown/beijin.jpg) no-repeat;}
 .content{min-height: 548px;}
-.info{font-size: 30; position: absolute;margin: 0 auto;width:330px;top:15%;left:30%;}
+.info{font-size: 30; position: absolute;margin: 0 auto;width:330px;top:22%;left:25%;}
 /*.info .view-detail{cursor: pointer; font-size: 15px; margin-top:20px;}*/
 .info .log{margin-left: 20%;}
 .info .lists{position: absolute; width: 700px; height: 100px; background: #B69DA0;border-radius: 15px;}
@@ -10,14 +10,15 @@
 
 .hot-recommend{width: 100%;height:300px;position: relative;}
 .hot-recommend .recommend-info{margin: 0 auto;width:400px;float: right;height:300px;position: absolute;left:20%;}
-.hot-recommend .recommend-info h2{font-size:45px; font-weight: 600;}
+.hot-recommend .recommend-info h2{font-size:35px; font-weight: 600;}
 .hot-recommend .recommend-info span{font-size:20px; letter-spacing: 2px;}
 .hot-recommend .img{width:300px; float: right;height:300px;margin-top:15px;position: absolute;right:15%;background: url(../img/eatown/remai.png) no-repeat;}
 .hot-recommend .recommend-info a{text-decoration: none;color:#000;}
+.hot-recommend .recommend-info .btn-recommend{padding: 10px; margin: 30px 80px;cursor: pointer;font-size: 20px; background: #D3a; width: 200px; height: 35px;border-radius: 10px;display: block;text-align: center;}
 
 .beside-restaurant{width: 100%;height:315px;position: relative; background:#F1F1F1;}
 .beside-restaurant .restaurant-info{margin:0 auto; float: right;width:400px;right:20%;position: absolute;}
-.beside-restaurant .restaurant-info h2{font-size:45px; font-weight: 600;}
+.beside-restaurant .restaurant-info h2{font-size:35px; font-weight: 600;}
 .beside-restaurant .restaurant-info span{font-size:20px; letter-spacing: 2px;}
 .beside-restaurant .img{width:300px; float: right;height:300px;margin-top:15px;position: absolute;left:20%;background: url(../img/eatown/shitang.png) no-repeat;}
 
@@ -25,19 +26,19 @@
 
 .health{width:100%; height: 362px;background:#FFAE57;position: relative;}
 .health .health-info{margin: 0 auto;width:400px;float: right;height:300px;position: absolute;left:20%;}
-.health .health-info h2{font-size:45px; font-weight: 600;}
+.health .health-info h2{font-size:35px; font-weight: 600;}
 .health .health-info span{font-size:20px; letter-spacing: 2px;}
 .health .img{width:300px; float: right;height:347px;margin-top:15px;position: absolute;right:15%;background: url(../img/eatown/weishen.png) no-repeat;}
 
 .delicious{width:100%;height: 335px;position: relative; background:#F1F1F1}
 .delicious .delicious-info{margin:0 auto; float: right;width:400px;right:20%;position: absolute;}
-.delicious .delicious-info h2{font-size:45px; font-weight: 600;}
+.delicious .delicious-info h2{font-size:35px; font-weight: 600;}
 .delicious .delicious-info span{font-size:20px; letter-spacing: 2px;}
 .delicious .img{width:300px; float: left;height:347px;margin-top:15px;position: absolute;left:15%;background: url(../img/eatown/meiwi.png) no-repeat;}
 
 .delivery{width:100%;height: 350px;position: relative; background:#48DEE7}
 .delivery .delivery-info{margin: 0 auto;width:400px;float: right;height:300px;position: absolute;left:20%;}
-.delivery .delivery-info h2{font-size:45px; font-weight: 600;}
+.delivery .delivery-info h2{font-size:35px; font-weight: 600;}
 .delivery .delivery-info span{font-size:20px; letter-spacing: 2px;}
 .delivery .img{width:300px; float: right;height:347px;margin-top:15px;position: absolute;right:15%;background: url(../img/eatown/peisong.png) no-repeat;}
 
@@ -58,4 +59,40 @@
 @-webkit-keyframes recommend{
     0%{top:200;opacity: 0;}
     100%{top:0%;opacity: 1;}
+}
+
+
+
+.info .desire{font-size:35px; padding-top:50px;width: 500px; position: relative;left:25%;
+transform-style:  preserve-3d;perspective: 600;-webkit-transform-style: preserve-3d;
+animation: yspin 6s linear infinite ; 
+-webkit-animation: yspin 6s linear infinite ; 
+}
+.info .view-detail{font-size: 30px; margin-top:10px;width: 650px; position: relative;left:25%;
+transform-style:  preserve-3d;perspective: 600;-webkit-transform-style: preserve-3d;
+animation: yspin 6s linear infinite;
+-webkit-animation: yspin 6s linear infinite ; 
+}
+/*animations*/
+/*.desireTransform {transform: rotate3d(0.9,0.9,1,10deg);-webkit-transform: rotate3d(0.9,0.9,1,10deg); transition:all 3s ease;}*/
+@keyframes yspin{
+   
+    /*0%   { -webkit-transform:rotateY(0deg); }
+	50%   { -webkit-transform:rotateY(180deg); }
+	100%  { -webkit-transform:rotateY(360deg); }*/
+      0%   { -webkit-transform: rotate3d(1,0.92,1,360deg); }
+	25%   { -webkit-transform:rotate3d(1,0.94,1,270deg); }
+	50%   { -webkit-transform:rotate3d(1,0.96,1,180deg); }
+	75%   { -webkit-transform:rotate3d(1,0.98,1,90deg); }
+	100%  { -webkit-transform:rotate3d(1,1,1,0deg); }
+}
+@-webkit-keyframes yspin{
+    /*0%   { -webkit-transform:rotateY(0deg); }
+	50%   { -webkit-transform:rotateY(180deg); }
+	100%  { -webkit-transform:rotateY(360deg); }*/
+      0%   { -webkit-transform: rotate3d(1,0.92,1,360deg); }
+	25%   { -webkit-transform:rotate3d(1,0.94,1,270deg); }
+	50%   { -webkit-transform:rotate3d(1,0.96,1,180deg); }
+	75%   { -webkit-transform:rotate3d(1,0.98,1,90deg); }
+	100%  { -webkit-transform:rotate3d(1,1,1,0deg); }
 }

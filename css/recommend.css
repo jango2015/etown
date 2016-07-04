@@ -4,7 +4,7 @@
 .header{height:20%; background: url(../img/recommend/ditu.jpg) no-repeat;}
 .menumContainer .menu ul li a{font-size:20px; text-decoration: none;color:#FFF;}
 
-.content{min-height: 540px;}
+.content{min-height: 839px;}
 .info{font-size: 30; position: absolute;margin: 0 auto;width:330px;top:25%;left:40%;}
 .info .view-detail{cursor: pointer; font-size: 15px; margin-top:20px;}
 

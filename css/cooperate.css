@@ -16,7 +16,7 @@ transform-style:  preserve-3d;perspective: 600;-webkit-transform-style: preserve
 animation: yspin 6s linear infinite ; 
 -webkit-animation: yspin 6s linear infinite ; 
 }
-.info .view-detail{font-size: 35px; margin-top:20px;width: 650px; position: relative;left:30%;
+.info .view-detail{font-size: 35px; margin-top:20px;width: 700px; position: relative;left:30%;
 transform-style:  preserve-3d;perspective: 600;-webkit-transform-style: preserve-3d;
 animation: yspin 6s linear infinite;
 -webkit-animation: yspin 6s linear infinite ; 

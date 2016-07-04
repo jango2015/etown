@@ -1,16 +1,17 @@
 
 
 
-.header{height:100%; background: url(../img/about/beij.jpg) no-repeat;}
+.header{height:100%; background: url(../img/about/beij.jpg) no-repeat;max-height: 958px;}
 .content{min-height: 548px;}
 .info{font-size: 30; position: absolute;margin: 0 auto;width:330px;top:50%;left:40%;}
 .info .view-detail{cursor: pointer; font-size: 15px; margin-top:20px;}
 .info .view-detail a{text-decoration: none;color:#FFF;}
 .company-container{height: 365px;width:100%; background: #FFF;opacity: 0.6;}
 
-.company-introduce{position: absolute;width: 41%; -moz-animation: group-info 1.5s ease-in-out both; -webkit-animation: group-info 1.5s ease-in-out both;animation: group-info 1.5s ease-in-out both;
-    }
-.introduction span{padding: 10px; line-height: 35px;}
+.company-introduce{position: absolute;width: 41%; -moz-animation: group-info 1.5s ease-in-out both; -webkit-animation: group-info 1.5s ease-in-out both;animation: group-info 1.5s ease-in-out both;    }
+.company-introduce span{width:550px;}
+.company-introduce .introduction span{line-height: 35px; text-align: left;display: block;}
+.company-introduce .introduction span:last-child{text-align: center;}
 
 .company-group{height:300px;background:url(../img/about/2.jpg);margin-top: -21px;}
 .company-group h4{padding:20px;}
@@ -49,4 +50,39 @@
 @keyframes group-info{
     0%{left:0;opacity: 0;}
     100%{left:30%;opacity: 1;}
+}
+
+
+.info .desire{
+transform-style:  preserve-3d;perspective: 600;-webkit-transform-style: preserve-3d;
+animation: yspin 6s linear infinite ; 
+-webkit-animation: yspin 6s linear infinite ; 
+}
+.info .view-detail{
+transform-style:  preserve-3d;perspective: 600;-webkit-transform-style: preserve-3d;
+animation: yspin 6s linear infinite;
+-webkit-animation: yspin 6s linear infinite ; 
+}
+/*animations*/
+/*.desireTransform {transform: rotate3d(0.9,0.9,1,10deg);-webkit-transform: rotate3d(0.9,0.9,1,10deg); transition:all 3s ease;}*/
+@keyframes yspin{
+   
+    /*0%   { -webkit-transform:rotateY(0deg); }
+	50%   { -webkit-transform:rotateY(180deg); }
+	100%  { -webkit-transform:rotateY(360deg); }*/
+      0%   { -webkit-transform: rotate3d(1,0.92,1,360deg); }
+	25%   { -webkit-transform:rotate3d(1,0.94,1,270deg); }
+	50%   { -webkit-transform:rotate3d(1,0.96,1,180deg); }
+	75%   { -webkit-transform:rotate3d(1,0.98,1,90deg); }
+	100%  { -webkit-transform:rotate3d(1,1,1,0deg); }
+}
+@-webkit-keyframes yspin{
+    /*0%   { -webkit-transform:rotateY(0deg); }
+	50%   { -webkit-transform:rotateY(180deg); }
+	100%  { -webkit-transform:rotateY(360deg); }*/
+      0%   { -webkit-transform: rotate3d(1,0.92,1,360deg); }
+	25%   { -webkit-transform:rotate3d(1,0.94,1,270deg); }
+	50%   { -webkit-transform:rotate3d(1,0.96,1,180deg); }
+	75%   { -webkit-transform:rotate3d(1,0.98,1,90deg); }
+	100%  { -webkit-transform:rotate3d(1,1,1,0deg); }
 }
