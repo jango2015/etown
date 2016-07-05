@@ -11,7 +11,7 @@
 .hot-recommend{width: 100%;height:300px;position: relative;}
 .hot-recommend .recommend-info{margin: 0 auto;width:400px;float: right;height:300px;position: absolute;left:20%;}
 .hot-recommend .recommend-info h2{font-size:35px; font-weight: 600;}
-.hot-recommend .recommend-info span{font-size:20px; letter-spacing: 2px;}
+.hot-recommend .recommend-info span{font-size:20px; letter-spacing: 2px; text-align: left;display: block;}
 .hot-recommend .img{width:300px; float: right;height:300px;margin-top:15px;position: absolute;right:15%;background: url(../img/eatown/remai.png) no-repeat;}
 .hot-recommend .recommend-info a{text-decoration: none;color:#000;}
 .hot-recommend .recommend-info .btn-recommend{padding: 10px; margin: 30px 80px;cursor: pointer;font-size: 20px; background: #D3a; width: 200px; height: 35px;border-radius: 10px;display: block;text-align: center;}
@@ -19,27 +19,30 @@
 .beside-restaurant{width: 100%;height:315px;position: relative; background:#F1F1F1;}
 .beside-restaurant .restaurant-info{margin:0 auto; float: right;width:400px;right:20%;position: absolute;}
 .beside-restaurant .restaurant-info h2{font-size:35px; font-weight: 600;}
-.beside-restaurant .restaurant-info span{font-size:20px; letter-spacing: 2px;}
+.beside-restaurant .restaurant-info span{font-size:20px; letter-spacing: 2px;text-align: left;display: block;}
+.beside-restaurant .restaurant-info .fsj-info{position: absolute;bottom:0;left:15%;width:500px;height:500px;display: none;}
 .beside-restaurant .img{width:300px; float: right;height:300px;margin-top:15px;position: absolute;left:20%;background: url(../img/eatown/shitang.png) no-repeat;}
 
+.beside-restaurant .fsj-typelists{padding-top: 10px;}
 
 
 .health{width:100%; height: 362px;background:#FFAE57;position: relative;}
 .health .health-info{margin: 0 auto;width:400px;float: right;height:300px;position: absolute;left:20%;}
 .health .health-info h2{font-size:35px; font-weight: 600;}
-.health .health-info span{font-size:20px; letter-spacing: 2px;}
+.health .health-info span{font-size:20px; letter-spacing: 2px;text-align: left;display: block;}
 .health .img{width:300px; float: right;height:347px;margin-top:15px;position: absolute;right:15%;background: url(../img/eatown/weishen.png) no-repeat;}
 
 .delicious{width:100%;height: 335px;position: relative; background:#F1F1F1}
 .delicious .delicious-info{margin:0 auto; float: right;width:400px;right:20%;position: absolute;}
 .delicious .delicious-info h2{font-size:35px; font-weight: 600;}
-.delicious .delicious-info span{font-size:20px; letter-spacing: 2px;}
+.delicious .delicious-info span{font-size:20px; letter-spacing: 2px;text-align: left;display: block;}
+.delicious .delicious-info .zj-info{position: absolute; bottom:35%; width: 500px;height:350px;left:15%; display: none;}
 .delicious .img{width:300px; float: left;height:347px;margin-top:15px;position: absolute;left:15%;background: url(../img/eatown/meiwi.png) no-repeat;}
 
 .delivery{width:100%;height: 350px;position: relative; background:#48DEE7}
 .delivery .delivery-info{margin: 0 auto;width:400px;float: right;height:300px;position: absolute;left:20%;}
 .delivery .delivery-info h2{font-size:35px; font-weight: 600;}
-.delivery .delivery-info span{font-size:20px; letter-spacing: 2px;}
+.delivery .delivery-info span{font-size:20px; letter-spacing: 2px;text-align: left;display: block;}
 .delivery .img{width:300px; float: right;height:347px;margin-top:15px;position: absolute;right:15%;background: url(../img/eatown/peisong.png) no-repeat;}
 
 

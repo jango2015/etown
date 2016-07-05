@@ -45,7 +45,9 @@
          <div class="beside-restaurant">            
             <div class="restaurant-info">
                 <h2>您身边的食堂</h2>
-                <span>"E食堂" 是以上班族为主要服务对象，突破传统餐饮模式，通过贩售机在线销售早、中、晚餐和下午茶，以及其他各类水果食品、饮料酒水等。</span>
+                <span>"E食堂" 是以上班族为主要服务对象，突破传统餐饮模式，通过贩售机在线销售早、中、晚餐和下午茶，以及各类食品、饮料、酒水和水果等商品等。</span>
+                 <div class="fsj-typelists">贩售机种类:<a href="javascript:;" class="fsj-types">微波加热机、蒸烤机、咖啡机、蔬果机、红酒机、水果机、冰激凌机、零食饮料机</a></div>
+                 <img src="img/eatown/fsj-white.png" alt="" class="fsj-info">
             </div>
             <!--<img src="img/eatown/shitang.png" alt="">-->
              <div class="img"></div>
@@ -61,7 +63,8 @@
          <div class="delicious">            
             <div class="delicious-info">
                 <h2>美味健康</h2>
-                <span>由沪上知名大厨、星尚节目御用、国际级厨师 <a class="inf-zj" href="javascript:;">张钧</a> 作为我们的菜品研发总监，加上强大的厨师研发团队，集及各派系的名厨名家，每款餐点均出自他们的潜心研发和悉心制作</span>
+                <span>由沪上知名大厨、星尚节目御用、国际级厨师 <a class="inf-zj" href="javascript:;" d-src="img/eatown/zjpic.jpg">张钧</a> 作为我们的菜品研发总监，加上强大的厨师研发团队，集及各派系的名厨名家，每款餐点均出自他们的潜心研发和悉心制作</span>
+                <img src="" alt="" class="zj-info"/>
                 </div>
             <!--<img src="img/eatown/shitang.png" alt="">-->
              <div class="img"></div>
@@ -87,7 +90,27 @@
         <div class="copyright">
             Copyright &copy;2016 @上海壹堂食信息技术股份有限公司  All Rights Reserved<br/>
             <!--<img src="img/home/tub.png" alt="">-->
-        </div>
+        </div> 
     </div>
 </body>
+  <script src="scripts/jquery-3.0.0.min.js"></script>
+    <script type="text/javascript">
+     $(function(){
+         $(".inf-zj").on("mouseover",function(){
+             var src = $(this).attr("d-src");
+             $(".zj-info").attr("src",src).show();
+         })
+        $(".zj-info").on("mouseout",function(){
+                   $(".zj-info").fadeOut();
+        })
+
+        $(".fsj-types").on("mouseover",function(){
+            $(".fsj-info").show();
+        })
+        $(".fsj-info").on("mouseout",function(){
+            $(this).fadeOut();
+        })
+        
+     })
+    </script>
 </html>

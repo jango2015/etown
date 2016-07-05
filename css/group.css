@@ -2,7 +2,7 @@
 
 
 .header{height:20%;}
-.content{min-height: 548px;}
+.content{min-height: 700px;}
 
 .menumContainer .menu ul li a{font-size:20px; text-decoration: none;color:#000;}
 
@@ -14,6 +14,7 @@
     -webkit-animation: group-detail-info  1.5s ease-in-out both;
     animation: group-detail-info  1.5s ease-in-out both;
     } 
+    .group-Info .group-detail {height:700px;}
 .group-Info .group-detail-info div{padding:10px;width:100%;}
 
 
