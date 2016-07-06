@@ -1,0 +1,54 @@
+141226 10:32:15 [Note] Plugin 'FEDERATED' is disabled.
+141226 10:32:15 InnoDB: The InnoDB memory heap is disabled
+141226 10:32:15 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+141226 10:32:15 InnoDB: Compressed tables use zlib 1.2.3
+141226 10:32:15 InnoDB: Initializing buffer pool, size = 128.0M
+141226 10:32:15 InnoDB: Completed initialization of buffer pool
+InnoDB: The first specified data file .\ibdata1 did not exist:
+InnoDB: a new database to be created!
+141226 10:32:15  InnoDB: Setting file .\ibdata1 size to 10 MB
+InnoDB: Database physically writes the file full: wait...
+141226 10:32:16  InnoDB: Log file .\ib_logfile0 did not exist: new to be created
+InnoDB: Setting log file .\ib_logfile0 size to 5 MB
+InnoDB: Database physically writes the file full: wait...
+141226 10:32:16  InnoDB: Log file .\ib_logfile1 did not exist: new to be created
+InnoDB: Setting log file .\ib_logfile1 size to 5 MB
+InnoDB: Database physically writes the file full: wait...
+InnoDB: Doublewrite buffer not found: creating new
+InnoDB: Doublewrite buffer created
+InnoDB: 127 rollback segment(s) active.
+InnoDB: Creating foreign key constraint system tables
+InnoDB: Foreign key constraint system tables created
+141226 10:32:16  InnoDB: Waiting for the background threads to start
+141226 10:32:17 InnoDB: 5.5.32 started; log sequence number 0
+141226 10:32:18 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+141226 10:32:18 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+141226 10:32:18 [Note] Server socket created on IP: '0.0.0.0'.
+141226 10:32:18 [ERROR] Can't start server: Bind on TCP/IP port: No such file or directory
+141226 10:32:18 [ERROR] Do you already have another mysqld server running on port: 3306 ?
+141226 10:32:18 [ERROR] Aborting
+
+141226 10:32:18  InnoDB: Starting shutdown...
+141226 10:32:18  InnoDB: Shutdown completed; log sequence number 1595675
+141226 10:32:18 [Note] mysqlzt: Shutdown complete
+
+141226 10:32:26 [Note] Plugin 'FEDERATED' is disabled.
+141226 10:32:26 InnoDB: The InnoDB memory heap is disabled
+141226 10:32:26 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+141226 10:32:26 InnoDB: Compressed tables use zlib 1.2.3
+141226 10:32:26 InnoDB: Initializing buffer pool, size = 128.0M
+141226 10:32:26 InnoDB: Completed initialization of buffer pool
+141226 10:32:26 InnoDB: highest supported file format is Barracuda.
+141226 10:32:27  InnoDB: Waiting for the background threads to start
+141226 10:32:28 InnoDB: 5.5.32 started; log sequence number 1595675
+141226 10:32:28 [Note] Server hostname (bind-address): '0.0.0.0'; port: 3306
+141226 10:32:28 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+141226 10:32:28 [Note] Server socket created on IP: '0.0.0.0'.
+141226 10:32:28 [ERROR] Can't start server: Bind on TCP/IP port: No such file or directory
+141226 10:32:28 [ERROR] Do you already have another mysqld server running on port: 3306 ?
+141226 10:32:28 [ERROR] Aborting
+
+141226 10:32:28  InnoDB: Starting shutdown...
+141226 10:32:28  InnoDB: Shutdown completed; log sequence number 1595675
+141226 10:32:28 [Note] mysqlzt: Shutdown complete
+
