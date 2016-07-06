@@ -5,6 +5,7 @@
 <head>
     <title>E食堂-关于</title>
     <link rel="shortcut icon" href="img/favicon.ico" type="images/x-icon" />
+    <link href="css/bootstrap.css" rel="stylesheet">
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/about.css">
     <style>
@@ -32,8 +33,8 @@
         </div>
     </div>
     <div class="clear"></div>
-    <div class="content">
-        <div class="company-container">
+    <div class="content" id="content">
+        <div class="company-container block" data-move-y="200px" data-move-x="-200px">
             <div class="company-introduce">
                 <h4>企业概况</h4>
                 <span class="company-name">上海壹堂食信息科技股份有限公司</span>
@@ -44,7 +45,7 @@
                 </div>
             </div>
         </div>
-        <div class="company-group whiteFontColor">
+        <div class="company-group whiteFontColor block" data-move-y="200px" data-move-x="200px" data-rotate="-45deg">
             <h4>中路集团</h4>
             <div class="company-group-info">
                 <span>上海中路（集团）有限公司，成立于1998年，是一家以投资为核心，主要涵盖并购、投资、影视文化和休闲娱乐等四个领域。</span>
@@ -55,7 +56,7 @@
                 </div>
             </div>
         </div>
-        <div class="recuit-Info whiteFontColor">
+        <div class="recuit-Info whiteFontColor block" data-rotate-x="90deg" data-move-z="-500px" data-move-y="200px">
             <h4>招聘信息</h4>
             <div class="recuit-info-jobs">
                 <dl>
@@ -78,13 +79,13 @@
                 </dl>
             </div>
         </div>
-        <div class="map-Info" name="contactu" id="contactu">
+        <div class="map-Info block" name="contactu" id="contactu" data-rotate-y="270deg" data-move-x="-150%">
             <h4>地址:上海闵行浦江镇陈行公路2388号9号楼</h4>
             <div class="map-baidu">
                 <iframe src="mapAddress.html" frameborder="0"></iframe>
             </div>
         </div>
-        <div class="contact-Info whiteFontColor">
+        <div class="contact-Info whiteFontColor block" data-scale="0.2" data-skew="90deg,90deg">
             <h3>联系我们</h3>
             <div class="contacts">
                 <img src="img/about/dianhua.png" alt="">
@@ -114,6 +115,7 @@
         </div>
     </div>
     <script src="scripts/jquery-3.0.0.min.js"></script>
+    <script src="scripts/jquery.smoove.js"></script>
     <script type="text/javascript">
         $(function(){
             $(".company-container").mouseenter(function(){
@@ -129,8 +131,13 @@
                $(this).stop();
                $(this).animate({"opacity":0.5},"fast").animate({"opacity":1},"fast");
             });
-
-            
+            // $(".block").smoove({
+            //     offset  : '45%'
+            //     // ,
+            //     // moveX is overridden to -200px for ".bar" object
+            // //    moveX   : '100px',
+            // //     moveY   : '100px',
+            // });
         })
     </script>
 </body>

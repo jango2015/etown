@@ -22,7 +22,7 @@ body{font-family:"MicrosoftYaHei",微软雅黑, 'Microsoft JhengHei' }
 .toggleC-Inf{opacity: 0.9;}
 
 
-.footer{position: relative;bottom:0;margin-top:-10px;padding-top:25px; background:#211B16;width:100%;height:15%; }
+.footer{margin-top:-10px;padding-top:25px; background:#211B16;width:100%;height:18%;position: relative;max-width: 1920px;}
 .footer-menu {height:35px; position: relative;left: 35%; text-align: center;padding-bottom:10px; width: 500px;}
 /*.footer-menu ul{ list-style: none;}*/
 .footer-menu ul li{ float: left;padding:0 20px;border-left: 1px solid #aaa;}
