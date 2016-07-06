@@ -14,7 +14,7 @@
 .hot-recommend .recommend-info span{font-size:20px; letter-spacing: 2px; text-align: left;display: block;}
 .hot-recommend .img{width:300px; float: right;height:300px;margin-top:15px;position: absolute;right:15%;background: url(../img/eatown/remai.png) no-repeat;}
 .hot-recommend .recommend-info a{text-decoration: none;color:#000;}
-.hot-recommend .recommend-info .btn-recommend{padding: 10px; margin: 30px 80px;cursor: pointer;font-size: 20px; background: #D3a; width: 200px; height: 35px;border-radius: 10px;display: block;text-align: center;}
+.hot-recommend .recommend-info .btn-recommend{padding: 10px; margin: 30px 80px;cursor: pointer;font-size: 20px; background: #D3DD33; width: 200px; height: 35px;border-radius: 10px;display: block;text-align: center;}
 
 .beside-restaurant{width: 100%;height:315px;position: relative; background:#F1F1F1;}
 .beside-restaurant .restaurant-info{margin:0 auto; float: right;width:400px;right:20%;position: absolute;}

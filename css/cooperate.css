@@ -34,12 +34,14 @@ animation: yspin 6s linear infinite;
 .hot-proxy .h5{width: 50px;height:5px;background: #F5A808;margin: 5px auto;}
 .hot-proxy .h6{width: 600px;height:2px;background: #F5A808;margin: 5px auto;margin-top:20px;margin-bottom: 20px;}
 .hot-proxy .hot-proxy-info{font-size:20px;}
-.hot-proxy .apply{position: absolute;bottom:-15px;left:35%; font-size:25px;}
+.hot-proxy .apply{position: absolute;bottom:-15px;left:30%; font-size:25px;}
 .hot-proxy .apply .proxy{float: left;padding:30px 35px;}
 .hot-proxy .apply .supply{float: left;padding:30px 35px;}
 .hot-proxy .apply a{color:#F5A808;}
 .hot-proxy .apply .proxy-icon{background: url(../img/cooperate/dailis.png) no-repeat;background-position: 0 25px; width:205px;height:50px;}
 .hot-proxy .apply .supply-icon{background: url(../img/cooperate/gongyins.png) no-repeat;background-position: 0 25px; width:205px;height:50px;}
+.hot-proxy .apply .left-fl{float: left;    padding-left: 35px;}
+.hot-proxy .apply .left-fl .hot-proxy-info span{color:#797575;display: block;padding-top: 10px;}
 
 .footer{ top: 500px;}
 .co-supplier{height:375px;margin-top: -20px;
