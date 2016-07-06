@@ -1,6 +1,6 @@
 
 .header{height:75%; background: url(../img/eatown/beijin.jpg) no-repeat; position: fixed;max-width: 1920px;}
-.content{min-height: 548px;position: relative;top: 450px;opacity: 0.96;}
+.content{min-height: 548px;position: relative;top: 450px;}
 .info{position: absolute;margin: 0 auto;width:330px;top:22%;left:25%;}
 /*.info .view-detail{cursor: pointer; font-size: 15px; margin-top:20px;}*/
 .info .log{margin-left: 20%;}
