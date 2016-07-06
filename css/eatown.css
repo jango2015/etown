@@ -1,6 +1,6 @@
 
-.header{height:100%; background: url(../img/eatown/beijin.jpg) no-repeat; position: fixed;max-width: 1920px;}
-.content{min-height: 548px;position: relative;top: 958px;opacity: 0.9;}
+.header{height:75%; background: url(../img/eatown/beijin.jpg) no-repeat; position: fixed;max-width: 1920px;}
+.content{min-height: 548px;position: relative;top: 450px;opacity: 0.96;}
 .info{position: absolute;margin: 0 auto;width:330px;top:22%;left:25%;}
 /*.info .view-detail{cursor: pointer; font-size: 15px; margin-top:20px;}*/
 .info .log{margin-left: 20%;}
@@ -52,7 +52,7 @@
 .health:hover{opacity: 0.95;transform:scale3d(0.98,0.98,1);-webkit-transform:scale3d(0.98,0.98,1);}
 .delicious:hover{opacity: 0.95;transform:scale3d(0.98,0.98,1);-webkit-transform:scale3d(0.98,0.98,1);}
 .delivery:hover{opacity: 0.95;transform:scale3d(0.98,0.98,1);-webkit-transform:scale3d(0.98,0.98,1);}
-.footer{top: 958px;}
+.footer{top: 440px;}
 
 .div-animation  {-webkit-animation:recommend .9s both;animation: recommend .9s both; -moz-animation: recommend .9s both; }
 /*animations*/

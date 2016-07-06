@@ -1,8 +1,8 @@
 
 
 
-.header{height:100%; background: url(../img/cooperate/bj7.jpg) no-repeat; max-height: 759px; position: fixed;max-width: 1920px;}
-.content{min-height: 548px; top: 759px; height: auto;position: relative;opacity: 0.9;}
+.header{height:75%; background: url(../img/cooperate/bj7.jpg) no-repeat; max-height: 759px; position: fixed;max-width: 1920px;}
+.content{min-height: 548px; top: 500px; height: auto;position: relative;opacity: 0.9;}
 
 .info{font-size: 30; position: absolute;margin: 0 auto;width:100%;height: 335px; bottom:0;    max-width: 1920px;
 /*background: url(../img/cooperate/yuanjin.png) no-repeat;*/
@@ -41,7 +41,7 @@ animation: yspin 6s linear infinite;
 .hot-proxy .apply .proxy-icon{background: url(../img/cooperate/dailis.png) no-repeat;background-position: 0 25px; width:205px;height:50px;}
 .hot-proxy .apply .supply-icon{background: url(../img/cooperate/gongyins.png) no-repeat;background-position: 0 25px; width:205px;height:50px;}
 
-.footer{ top: 759px;}
+.footer{ top: 500px;}
 .co-supplier{height:375px;margin-top: -20px;
 /*background: url(../img/cooperate/2.png) no-repeat;*/
 background: #F8F5F1;
