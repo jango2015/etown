@@ -1,0 +1,69 @@
+
+
+/*.header{width:100%;height: 55%;margin: 0;padding:0;background-image: url(../img/home/beijin.png);}*/
+
+
+.header{width:100%;height: 55%;margin: 0;padding:0;background: url(../img/home/beijin.jpg) no-repeat;}
+.content{width:100%;height:29%;}
+@media (device-width:375px) and (-webkit-min-device-pixel-ratio:2){/* 兼容iphone 6 */
+.header{width:100%;height: 820px;margin: 0;padding:0;background: url(../img/home/beijin.jpg) no-repeat;}
+.content{width:100%;height:37%;}
+}
+@media (device-height:480px) and (-webkit-min-device-pixel-ratio:2),(device-height:568px) and (-webkit-min-device-pixel-ratio:2){/* 兼容iphone4/4s5/5 */ 
+.header{width:100%;height: 820px;margin: 0;padding:0;background: url(../img/home/beijin.jpg) no-repeat;}
+.content{width:100%;height:37%;}
+}
+@media (device-width:414px) and (-webkit-min-device-pixel-ratio:3.0){/* 兼容iphone6 plus */
+.header{width:100%;height: 55%;margin: 0;padding:0;background: url(../img/home/beijin.jpg) no-repeat;}
+.content{width:100%;height:37%;}
+}
+
+.header-animate{width:100%;height: 55%;margin: 0;padding:0;background-image: 
+url(../img/home/beijin.png),
+url(../img/home/beij-2.png),
+url(../img/home/beij-3.png),
+url(../img/home/beij-4.png),
+url(../img/home/beij-5.png);
+background-repeat: no-repeat,no-repeat,no-repeat,no-repeat,repeat-x; 
+background-position: 0px 0px,0px 0px,0px 0px; 
+animation:animateBird 20s infinite;
+animation-delay:3s;
+-webkit-animation-delay: 3s;
+-webkit-animation:animateBird 20s infinite; /*Safari and Chrome*/
+}
+@keyframes animateBird{
+                       0% {background-position: 0 0,0 0,0 0,0 0,0 0;}
+                       35% { background-position: -2000px 0, 0 0, 0 0,0 0,0 0; }
+                       50% { background-position: -2000px 0, -2000px 0, 0 0,0 0,0 0; }                       
+                       75% { background-position: -2000px 0, -2000px 0, -2000px 0,-2000px 0,0 0; }
+                       100% { background-position:-2000px 0 , -2000px 0, -2000px 0,-2000px 0,0 0; }
+                       }
+@-webkit-keyframes animateBird{
+                       0% {background-position: 0 0,0 0,0 0,0 0,0 0;}
+                       35% { background-position: -2000px 0, 0 0, 0 0,0 0,0 0; }
+                       50% { background-position: -2000px 0, -2000px 0, 0 0,0 0,0 0; }                       
+                       75% { background-position: -2000px 0, -2000px 0, -2000px 0,-2000px 0,0 0; }
+                       100% { background-position:-2000px 0 , -2000px 0, -2000px 0,-2000px 0,0 0; }
+                       }
+
+
+.info{font-size: 30; position: absolute;margin: 0 auto;width:475px;top:30%;left:35%;}
+.content .news {width:49%; height:100%;opacity: 0.6;-moz-opacity:0.5;padding-right: 1%;left:0;position: relative;float: left;background:url(../img/bg/beij.jpg);}
+
+.content .news .title {padding-top:10px;}
+.content .news .title .view-more{margin: 0 auto;position: relative;right: 0;float: right;cursor: pointer;}
+.content .news .title .new-content{position: relative;    margin: 0 auto;position: relative;left: 42%;float: left;}
+.content .news .newInfo{width: 100%;}
+.content .news .newInfo ul{list-style: none;}
+.content .news .newInfo ul li{padding:6px 8px;width: 100%;}
+.content .news .newInfo ul li .date{padding-right: 10px;width:50px;}
+
+
+
+/*.content .focus{width:49%;text-align: left;padding-top: 10px; height:25%;padding-left:1%; position: absolute;float: right;right:0px;background:url(../img/bg/guanzu.png)}*/
+.content .focus{width:49%;text-align: left;padding-top: 10px; height:100%;padding-left:1%; position: relative;float: right;right:0px;background:#C57E31;}
+.content .focus .link-img{width:38px;height:38px; padding: 1px 10px;}
+
+.content .focus .wechatOA{position: absolute;float: left;right: 47%;top:-40%; display: none;}
+/*.content .focus .hr-short{width:100%;}*/
+

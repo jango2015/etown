@@ -1,0 +1,27 @@
+
+.header{height:20%;}
+.content{padding-top:10px;min-height: 550px;}
+.register-title{padding-bottom:10px;}
+.register-title img{width:20px;height:20px;}
+.register-title b{ padding-left:15px;}
+.eatown-Font-color{color:#f93;}
+.eatown-btn-back-color{background: #f93;}
+.register-box{text-align: center;width:450px;min-height:485px; left:35%;position: absolute; }
+
+.input-control{height: 40px; width:400px;margin-top:20px;border:1px solid #DDD;border-radius:5px;  }
+.input-control input {width:400px;height: 40px;right:0;position: absolute;border-radius:5px;border: none;right: 10px; }
+.input-control .user-account{background: url(../img/register/zhanghao.png) no-repeat;background-position: 10px 9px ; padding:0 50px;margin: 0; text-align: left;float:left;}
+.input-control .user-vericode{background: url(../img/register/yanzhenm.png) no-repeat;background-position: 10px 9px ;width: 250px;left:50px;padding:0 50px;margin:0px -8px;}
+.vericode{width: 250px;}
+.input-control .user-password{background: url(../img/register/mima.png) no-repeat;background-position: 10px 9px ; padding:0 50px;margin: 0; text-align: left;float:left;}
+.choose-contract{width:18px; height: 18px;background: #FFF;}
+.choose-info a{text-decoration: blink;}
+
+.nolinkline{text-decoration: blink;}
+.login-ways img{width:20px;height:20px;}
+.span-login-ways-control{padding-top:25px;}
+.input-check-control{padding-top: 10px; text-align: left;}
+.span-login-control{padding-top:10px;text-align: center;}
+.input-control .btn {width:400px;height: 40px;right:0;position: absolute;border-radius:5px;border: none;right: 10px; cursor: pointer; margin: 0 -1px;}
+.input-control .btn-getVericode{width:100px;}
+.input-control .btn-login{margin: 10px 0;}

@@ -1,0 +1,29 @@
+
+.header{height:20%;}
+.menumContainer .menu ul li a{font-size:20px; text-decoration: none;color:#000;}
+
+.content{height: 2250px;}
+
+.title{height:200px;background: url(../img/recruiter/zhaopin.jpg) no-repeat;color: #FFF;margin-top:-20px;}
+.title h3{padding-top: 5%;font-size:20px;}
+
+.joblist-info{margin-top:20px;width:100%;height: 100%;}
+.joblist-info .jobitem{}
+.joblist-info .jobitem .jobtitle{line-height: 50px; font-size:20px; font-weight: 700;position: relative;width: 100%;}
+.joblist-info .jobitem .jobtitle .job-cnName{}
+.joblist-info .jobitem .jobtitle .job-EnName{border-bottom: 1px solid #CCC;color:#DDD;}
+.joblist-info .jobitem .jobtitle .job-EnName i{cursor: pointer;padding-left: 20%;}
+
+.joblist-info .jobitem .jobdetail{position: relative;left:35%; width:650px;display: none;word-break: break-all;letter-spacing: 2px;}
+.joblist-info .jobitem .jobdetail .job-detailInfo{ width: 100%;text-align: left;}
+.joblist-info .jobitem .jobdetail .job-detailInfo div{padding:5px;}
+.joblist-info .jobitem .jobdetail .label{text-align: left;}
+
+
+.footer {position: relative;}
+
+.border-arrowhead-right{position: relative;}
+.border-arrowhead-right:after,.border-arrowhead-right:before{border:30px solid transparent;border-top-color: #fff;width:0;height:0;content: ' ';
+      position: absolute; border-width: 30px;
+    }
+.border-arrowhead-right:before{border-top-color: #f00 ;border-width: 31px;}

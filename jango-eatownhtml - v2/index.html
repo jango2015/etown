@@ -1,0 +1,122 @@
+<html>
+<!--<meta content="charset=utf-8" />-->
+<!--<meta content="charset=gb2312" />--> 
+<meta  http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<head>
+    <title>E食堂-首页</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="images/x-icon"/>
+</head>
+<body>
+    <div id="divhead" class="header whiteFontColor">
+        <div class="menumContainer">
+            <div class="menu">
+                <ul>
+                    <li><a class="active" href="index.html">首页</a></li>
+                    <li><a href="about.html">关于我们</a></li>
+                    <li><a href="eatown.html">E食堂</a></li>
+                    <li><a href="cooperate.html">合作伙伴</a></li>
+                </ul>
+            </div>
+            <img class="logo" src="img/logo/logo.png" alt="Logo">
+        </div>
+        
+        <div class="info">
+            国内首个以贩售机为核心的<br/>O2O平台
+        </div>
+    </div>
+    <div class="clear"></div>
+    <div class="content">
+        <div class="news">
+            <div class="title">
+                <div class="new-content defaultFontColor">最新动态</div>
+                <div class="view-more defaultFontColor">浏览更多></div>
+            </div>
+            <div class="newInfo defaultFontColor">
+                <ul>
+                    <!--<li><span class="date">2018-12-11</span><span class="information">壹堂食XXXXXXXX</span></li>-->
+                    <li><span class="date">2016-06</span><span class="information">壹堂食公司官网正在建设中。</span></li>
+                    <li><span class="date">2016-04</span><span class="information">壹堂食微信订餐正在建设中。</span></li>
+                    <li><span class="date">2015-08</span><span class="information">壹堂食公司正式成立了！！！</span></li>
+                </ul>
+            </div>
+        </div>
+        <div class="focus whiteFontColor">
+            <span>关注E食堂</span><br/>
+            <span class="link-img"><a  target="_blank" href="http://weibo.com/eatown"><img alt="" src="img/focus/weibo.png"/></a></span>
+            <!--<span class="link-img"><a  target="_blank" href="http://t.qq.com/"><img alt="" src="img/focus/qq.png"/></a></span>-->
+            <span class="link-img showWeChatOa"><a  target="_blank" href="javascript:;"><img alt="" src="img/focus/weixin.png"/></a>
+                <div class="wechatOA" style="display:;">
+                    <img width="150px" height="150px" src="img/focus/qrcode.jpg" alt="">
+                </div>
+            </span>
+            <!--<span class="link-img erweima"><img alt="" src="img/focus/erweima.png"/></span>-->
+            <hr class="hr-short whiteFontColor" />
+            <span>客服热线: </span>
+            <br/>400-117-2877(7:00-22:00)
+
+        </div>
+        <div class="clear"></div>
+    </div>
+    <div class="footer whiteFontColor">
+        <div class="footer-menu">
+            <ul>
+                <li><a href="about.html">关于我们</a></li>
+                <li><a href="about.html#contactu">联系我们</a></li>
+                <li><a href="recruiter.html">招聘信息</a></li>
+                <li><a href="cooperate.html">合作伙伴</a></li>
+            </ul>
+        </div>
+        <div class="copyright">
+            Copyright &copy;2016 @上海壹堂食信息技术股份有限公司  All Rights Reserved<br/>
+            <!--<img src="img/home/tub.png" alt="">-->
+        </div>
+    </div>
+    <script src="scripts/jquery-3.0.0.min.js"></script>
+    <script type="text/javascript">
+    var imgs=["img/home/beijin.jpg","img/home/beij-3.jpg","img/home/beij-4.jpg","img/home/beij-5.jpg"];
+    var infos =["国内首个以贩售机为核心的<br/>O2O平台","贩售机无人商店<br/>突破传统、行业先锋","品种多样又美味、安全卫生有保障","您身边的食堂、更便利又省心"];
+    var ind;
+    function setBg(imgLenth){
+        ind =getIngerIndex();
+        var img = imgs[ind];
+        $("#divhead").animate({opacity:0.6},"normal","swing",function(){
+            $("#divhead").css({"backgroundImage":"url("+img+")","backgroundRepeat":" no-repeat"});
+            $(".info").html(infos[ind]);
+        }).animate({opacity:0.8}).animate({opacity:1},"normal","swing");
+    }
+    var i =0;
+    function getIngerIndex(){
+        if(i<imgs.length-1){
+            i++;
+        }
+        else if(i ==imgs.length-1){
+            i=0;
+        }
+        else{
+            i=-1;
+        }
+        if(i==-1){
+            return 0;
+        }
+        else{
+            return i;
+        }
+    }
+    $(function(){
+        setInterval(setBg,3300);
+        $(".showWeChatOa,.erweima").on("mouseenter",function(){
+            $(".wechatOA").show();
+        });
+
+            $(".showWeChatOa,.erweima").on("mouseout",function(){
+                 setTimeout(function(){ 
+                     $(".wechatOA").hide();
+                 },5000);
+            });
+    })
+</script>
+</body>
+
+</html>
