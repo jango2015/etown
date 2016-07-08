@@ -1,5 +1,5 @@
 .header{height:75%; background: url(../img/about/bj1.jpg) no-repeat;max-height: 610px; position: fixed;max-width: 1920px;}
-.content{min-height: 548px; max-width: 1920px; position: relative;    width: 100%;    top: 449px;font-family:"MicrosoftYaHei",微软雅黑, 'Microsoft JhengHei' }
+.content{min-height: 548px; max-width: 1920px; position: relative;    width: 100%;    top: 449px;font-family:"MicrosoftYaHei",微软雅黑; }
 .info{font-size: 35px; position: absolute;margin: 0 auto;top:30%;left:40%;}
 .info .view-detail{cursor: pointer; font-size: 20px; margin-top:20px;}
 .info .view-detail a{text-decoration: none;color:#FFF;}
@@ -7,7 +7,7 @@
 
 .company-introduce{position: absolute;width: 41%; -moz-animation: group-info 1.5s ease-in-out both; -webkit-animation: group-info 1.5s ease-in-out both;animation: group-info 1.5s ease-in-out both;    }
 /*.company-introduce span{}*/
-.company-introduce h4{font-size:20px;font-weight: 700;}
+.company-introduce h4{font-size:20px;font-weight: 700;font-family: MicrosoftYaHei, 微软雅黑;}
 .company-introduce .introduction span{line-height: 35px; text-align: left;display: block;}
 .company-introduce .introduction span:last-child{text-align: center;}
 
@@ -33,7 +33,7 @@
 .map-Info h4{padding-top:20px;}
 
 .contact-Info{height: 375px; background: url(../img/about/5.jpg) no-repeat;margin-top: -21px;}
-.contact-Info h3{padding-top:20px;}
+.contact-Info h4{padding-top:20px;font-size:20px;font-weight: 700;font-family: MicrosoftYaHei, 微软雅黑;}
 .contact-Info .contacts div{padding-top:5px;}
 .contact-Info .contacts img{width:50px;height:50px;}
 .contact-Info .contacts .phone{font-size:30px;}
