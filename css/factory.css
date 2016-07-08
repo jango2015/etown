@@ -1,0 +1,44 @@
+
+.header{height:20%;}
+.menumContainer .menu ul li a{font-size:20px; text-decoration: none;color:#000;}
+
+.content{height: 1250px;}
+
+.title{height:200px;background: url(../img/recruiter/zhaopin.jpg) no-repeat;color: #FFF;margin-top:-20px;}
+.title h3{padding-top: 5%;font-size:20px;}
+
+.factory-info .factory-mark{    text-align: left;position: relative;left: 20%;width: 800px;margin-top: 30px;}
+.factory-info .factory-tabs{text-align: center;position: relative;left:20%;width: 800px;border-bottom: 2px solid #ccc; }
+.factory-info .factory-tabs .tablist{ list-style: none;height: 55px;    position: relative;left: -40px;}
+.factory-info .factory-tabs ul li{float: left; font-size: 22px;color:#9A9696;padding:20px 32px;}
+.factory-info .factory-tabs ul li:last-child{padding-right:0;}
+.factory-info .factory-tabs ul .active{color:#EE8E26;border: 1px solid #EE8E26; cursor: pointer;
+                                      border-top-left-radius: 15px;border-top-right-radius: 15px;}
+.footer {position: relative;}
+
+
+.factory-info .factory-list{margin-top: 25px;}
+.border-arrowhead-right{position: relative;}
+.border-arrowhead-right:after,.border-arrowhead-right:before{border:30px solid transparent;border-top-color: #fff;width:0;height:0;content: ' ';
+      position: absolute; border-width: 30px;
+    }
+.border-arrowhead-right:before{border-top-color: #f00 ;border-width: 31px;}
+
+
+ul,li{list-style:none;}
+img{border:0;}
+.wrapper{width:800px;margin:0 auto;padding-bottom:50px;}
+h1{height:50px;line-height:50px;font-size:22px;font-weight:normal;font-family:"Microsoft YaHei",SimHei;margin-bottom:20px;}
+/* focus */
+#focus{width:800px;height:700px;overflow:hidden;position:relative;}
+#focus ul{height:380px;position:absolute;}
+#focus ul li{float:left;width:800px;height:700px;overflow:hidden;position:relative;background:#000;}
+#focus ul li img{width:800px;height:700px;}
+#focus ul li div{position:absolute;overflow:hidden;}
+#focus .btnBg{position:absolute;width:800px;height:20px;left:0;bottom:0;background:#000;}
+#focus .btn{position:absolute;width:780px;height:10px;padding:5px 10px;right:0;bottom:0;text-align:right;}
+#focus .btn span{display:inline-block;_display:inline;_zoom:1;width:25px;height:10px;_font-size:0;margin-left:5px;cursor:pointer;background:#fff;}
+#focus .btn span.on{background:#fff;}
+#focus .preNext{width:45px;height:700px;position:absolute;top:90px;background:url(img/sprite.png) no-repeat 0 0;cursor:pointer;}
+#focus .pre{left:0;}
+#focus .next{right:0;background-position:right top;}

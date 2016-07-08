@@ -1,0 +1,185 @@
+<html>
+<!--<meta content="charset=utf-8" />-->
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<head>
+    <title>E食堂-食品工厂</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="images/x-icon" />
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/factory.css">
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <div class="header defaultFontColor border-bottom">
+        <div class="menumContainer">
+            <div class="menu">
+                <ul>
+                    <li><a href="index.html">首页</a></li>
+                    <li><a href="about.html">关于我们</a></li>
+                    <li><a class="active" href="eatown.html">E食堂</a></li>
+                    <li><a href="cooperate.html">合作伙伴</a></li>
+                </ul>
+            </div>
+            <img class="logo" width="150px" height="70px" src="img/about/logo.png" alt="Logo">
+        </div>
+    </div>
+    <div class="clear"></div>
+    <div class="content">
+        <div class="title">
+            <h3>食品工厂</h3>
+        </div>
+        <div class="factory-info">
+            <div class="factory-mark">
+                严格的卫生标准，严格把控食物品质，所售商品全部由具备国家QS认证的厂家提供；自有品牌食品由大型标准化工厂制作，保证食品的品质与安全，具备大规模化生产能力。
+            </div>
+            <div class="factory-tabs">
+                <ul class="tablist">
+                    <li class="active">上海店</li>
+                    <li>北京店</li>
+                    <li>深圳店</li>
+                    <li>广州店</li>
+                    <li>武汉店</li>
+                    <li>长沙店</li>
+                </ul>
+            </div>
+            <div class="factory-list">
+                <div class="item-list">
+                    <div class="wrapper">
+                        <div id="focus">
+                            <ul>
+                                <li>
+                                    <img src="img/factory/1.jpg" alt="" />
+                                </li>
+                                <li>
+                                   <img src="img/factory/2.jpg" alt="" />
+                                </li>
+                                <li>
+                                    <img src="img/factory/3.jpg" alt="" />
+                                </li>
+                                <li>
+                                    <img src="img/factory/4.jpg" alt="" />
+                                </li>
+                                <li>
+                                    <img src="img/factory/5.jpg" alt="" />
+                                </li>
+                                 <li>
+                                    <img src="img/factory/6.jpg" alt="" />
+                                </li>
+                                 <li>
+                                    <img src="img/factory/7.jpg" alt="" />
+                                </li>
+                                 <li>
+                                    <img src="img/factory/8.jpg" alt="" />
+                                </li>
+                                 <li>
+                                    <img src="img/factory/9.jpg" alt="" />
+                                </li>
+                                 <li>
+                                    <img src="img/factory/10.jpg" alt="" />
+                                </li>
+                                 <li>
+                                    <img src="img/factory/11.jpg" alt="" />
+                                </li>
+                                 <li>
+                                    <img src="img/factory/12.jpg" alt="" />
+                                </li>
+                            </ul>
+                        </div>
+                        <!--focus end-->
+
+                    </div>
+                    <!-- wrapper end -->
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer whiteFontColor">
+        <div class="footer-menu">
+            <ul>
+                <li><a href="about.html">关于我们</a></li>
+                <li><a href="about.html#contactu">联系我们</a></li>
+                <li><a href="recruiter.html">招聘信息</a></li>
+                <li><a href="cooperate.html">合作伙伴</a></li>
+            </ul>
+        </div>
+        <div class="copyright">
+            Copyright &copy;2016 @上海壹堂食信息技术股份有限公司 All Rights Reserved<br/>
+            <!--<img src="img/home/tub.png" alt="">-->
+        </div>
+    </div>
+    <script src="scripts/jquery-3.0.0.min.js"></script>
+   <script type="text/javascript">
+$(function() {
+	var sWidth = $("#focus").width(); //获取焦点图的宽度（显示面积）
+	var len = $("#focus ul li").length; //获取焦点图个数
+	var index = 0;
+	var picTimer;
+	
+	//以下代码添加数字按钮和按钮后的半透明条，还有上一页、下一页两个按钮
+	var btn = "<div class='btnBg'></div><div class='btn'>";
+	for(var i=0; i < len; i++) {
+		btn += "<span></span>";
+	}
+	btn += "</div><div class='preNext pre'></div><div class='preNext next'></div>";
+	$("#focus").append(btn);
+	$("#focus .btnBg").css("opacity",0.5);
+
+	//为小按钮添加鼠标滑入事件，以显示相应的内容
+	$("#focus .btn span").css("opacity",0.4).mouseover(function() {
+		index = $("#focus .btn span").index(this);
+		showPics(index);
+	}).eq(0).trigger("mouseover");
+
+	//上一页、下一页按钮透明度处理
+	$("#focus .preNext").css("opacity",0.2).hover(function() {
+		$(this).stop(true,false).animate({"opacity":"0.5"},300);
+	},function() {
+		$(this).stop(true,false).animate({"opacity":"0.2"},300);
+	});
+
+	//上一页按钮
+	$("#focus .pre").click(function() {
+		index -= 1;
+		if(index == -1) {index = len - 1;}
+		showPics(index);
+	});
+
+	//下一页按钮
+	$("#focus .next").click(function() {
+		index += 1;
+		if(index == len) {index = 0;}
+		showPics(index);
+	});
+
+	//本例为左右滚动，即所有li元素都是在同一排向左浮动，所以这里需要计算出外围ul元素的宽度
+	$("#focus ul").css("width",sWidth * (len));
+	
+	//鼠标滑上焦点图时停止自动播放，滑出时开始自动播放
+	$("#focus").hover(function() {
+		clearInterval(picTimer);
+	},function() {
+		picTimer = setInterval(function() {
+			showPics(index);
+			index++;
+			if(index == len) {index = 0;}
+		},3000); //此4000代表自动播放的间隔，单位：毫秒
+	}).trigger("mouseleave");
+	
+	//显示图片函数，根据接收的index值显示相应的内容
+	function showPics(index) { //普通切换
+		var nowLeft = -index*sWidth; //根据index值计算ul元素的left值
+		$("#focus ul").stop(true,false).animate({"left":nowLeft},300); //通过animate()调整ul元素滚动到计算出的position
+		//$("#focus .btn span").removeClass("on").eq(index).addClass("on"); //为当前的按钮切换到选中的效果
+		$("#focus .btn span").stop(true,false).animate({"opacity":"0.4"},300).eq(index).stop(true,false).animate({"opacity":"1"},300); //为当前的按钮切换到选中的效果
+	}
+});
+
+</script>
+
+</body>
+
+</html>
