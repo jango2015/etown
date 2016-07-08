@@ -1,5 +1,5 @@
 .header{height:75%; background: url(../img/about/bj1.jpg) no-repeat;max-height: 610px; position: fixed;max-width: 1920px;}
-.content{min-height: 548px; max-width: 1920px; position: relative;    width: 100%;    top: 480px;font-family:"MicrosoftYaHei",微软雅黑; }
+.content{min-height: 548px; max-width: 1920px; position: relative;    width: 100%;    top: 448px;font-family:"MicrosoftYaHei",微软雅黑; }
 .info{font-size: 35px; position: absolute;margin: 0 auto;top:30%;left:40%;}
 .info .view-detail{cursor: pointer; font-size: 20px; margin-top:20px;}
 .info .view-detail a{text-decoration: none;color:#FFF;}

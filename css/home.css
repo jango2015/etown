@@ -52,7 +52,7 @@ animation-delay:3s;
 
 .content .news .title {padding-top:10px;}
 .content .news .title .view-more{margin: 0 auto;position: relative;right: 0;float: right;cursor: pointer;}
-.content .news .title .new-content{position: relative;    margin: 0 auto;position: relative;left: 42%;float: left;}
+.content .news .title .new-content{position: relative;    margin: 0 auto;position: relative;left: 33%;float: left;}
 .content .news .newInfo{width: 100%;}
 .content .news .newInfo ul{list-style: none;}
 .content .news .newInfo ul li{padding:6px 8px;width: 100%;}
