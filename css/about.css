@@ -30,7 +30,7 @@
 .map-Info{height: 348px; background: url(../img/about/4.jpg) no-repeat;margin-top: -10px;padding-bottom: 19px;}
 .map-Info .map-baidu{width:100%; padding-bottom: 10px;}
 .map-Info .map-baidu iframe {width:47%;height:330px; overflow: none;}
-.map-Info h4{padding-top:20px;}
+.map-Info h4{padding-top:20px;font-size:20px;font-weight: 700;font-family: MicrosoftYaHei, 微软雅黑;}
 
 .contact-Info{height: 375px; background: url(../img/about/5.jpg) no-repeat;margin-top: -21px;}
 .contact-Info h4{padding-top:20px;font-size:20px;font-weight: 700;font-family: MicrosoftYaHei, 微软雅黑;}
